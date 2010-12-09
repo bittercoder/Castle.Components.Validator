@@ -1,3 +1,11 @@
+2.5.0
+=====
+- Upgraded Castle.Core to 2.5.2 (includes DynamicProxy).
+- Included .NET 4 binaries on the release package.
+- New: COMP-85 Added support for MetadataType.
+- Fixed: COMP-98 Change ErrorSummary.RegisterErrorMessage() to return object instance.
+- Fixed: COMP-113 The Validator Can't Detect Culture Changes.
+
 1.1.1
 =====
 - Include resources in release package.
